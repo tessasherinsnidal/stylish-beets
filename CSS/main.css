@@ -1,9 +1,18 @@
-body {
+html {
   background-color: #c9b5ae;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
+
 header {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  color: #4a222a;
+}
+
+h2 {
+  color: #4a222a;
 }
 
 img {
@@ -18,6 +27,7 @@ a {
   color: #8a263e;
   text-decoration: none;
 }
+
 a:hover {
   color: #4a222a;
   text-decoration: underline;
@@ -30,12 +40,37 @@ figcaption {
 }
 
 blockquote {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+blockquote cite {
+  line-height: 4rem;
 }
 
 blockquote strong {
   font-weight: normal;
 }
+
 main > p:nth-child(2) {
+  font-weight: 700;
+}
+
+.greek {
+  list-style-type: lower-greek;
+}
+
+.circle {
+  list-style-type: circle;
+}
+
+dl dt {
+  font-weight: 700;
+}
+
+.servingsize {
+  font-style: italic;
+}
+
+.firstword {
   font-weight: 700;
 }
