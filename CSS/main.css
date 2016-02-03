@@ -11,6 +11,14 @@ h1 {
   color: #4a222a;
 }
 
+hi > i {
+  font-weight: 700;
+}
+
+nav {
+  font-weight: 700;
+}
+
 h2 {
   color: #4a222a;
 }
@@ -41,10 +49,12 @@ figcaption {
 
 blockquote {
   font-size: 1.5rem;
+  font-style: italic;
 }
 
 blockquote cite {
   line-height: 4rem;
+  font-size: 1rem;
 }
 
 blockquote strong {
