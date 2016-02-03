@@ -1,0 +1,41 @@
+body {
+  background-color: #c9b5ae;
+  font-family: 'PT Serif', serif;
+}
+header {
+  font-family: 'PT Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #8a263e;
+  text-decoration: none;
+}
+a:hover {
+  color: #4a222a;
+  text-decoration: underline;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: .7rem;
+}
+
+blockquote {
+  font-size: 2rem;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+main > p:nth-child(2) {
+  font-weight: 700;
+}
